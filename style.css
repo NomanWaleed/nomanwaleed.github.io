@@ -227,3 +227,49 @@ button.btn.doit:focus{
 button.btn.doit:visited{
   border: none;
 }
+
+/* Responsive */
+@media only screen and (max-width:768px){
+  .section-3 p, .section-7 p {
+    padding: 0;
+  }
+  .container.section-4 .card-body {
+    height: 750px;
+}
+.h2Sec6{
+  padding: 0;
+}
+}
+
+@media only screen and (max-width:425px){
+h1{
+  font-size: 2.0rem;
+}
+.imgSec1 {
+  width: 40%;
+}
+img.img-fluid {
+  width: 80%; 
+}
+
+.container.section-5 {
+    padding: 10% 5%;
+    text-align: center;
+}
+.row.sec-4 {
+  padding: 5%;
+}
+h2.h2Sec6 {
+  font-size: 20px;
+  padding: 15px;
+}
+.container.section-8 {
+  padding: 10%;
+}
+.container-fluid.footer {
+  margin-top: 3%;
+}
+img.bulma {
+  width: 50%;
+}
+}
